@@ -28,13 +28,13 @@ struct library
 		for (int i = 0; i < kil; i++)
 		{
 			cout << "\nauthor's name: ";
-			cin >> books->author_name;
+			cout << books->author_name;
 			cout << "\nbook's name: ";
-			cin >> books->book_name;
+			cout << books->book_name;
 			cout << "\nvudavnutstvo's name: ";
-			cin >> books->vudavnutstvo;
+			cout << books->vudavnutstvo;
 			cout << "\nthe year: ";
-			cin >> books->year;
+			cout << books->year;
 
 			cout << endl;
 		}
